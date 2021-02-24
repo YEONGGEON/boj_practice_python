@@ -3,7 +3,6 @@ import math
 
 rooms = int(sys.stdin.readline())
 people = list(map(int, sys.stdin.readline().split()))
-
 mainman, subman = map(int, sys.stdin.readline().split())
 
 totmen = 0
