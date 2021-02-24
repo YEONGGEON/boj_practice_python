@@ -1,9 +1,5 @@
 import sys
-import os
 import math
-
-# if os.path.exists("input.txt"):
-#     sys.stdin = open('input.txt')
 
 rooms = int(sys.stdin.readline())
 people = list(map(int, sys.stdin.readline().split()))
