@@ -16,3 +16,9 @@ for i in range(1,N):
         largest = temp
 
 print(largest)
+
+'''
+boj
+Continous Sum (1912)
+36992KB / 108ms
+'''
