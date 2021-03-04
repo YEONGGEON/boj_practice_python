@@ -20,8 +20,7 @@ def DFS(count):
         select.append(i)
         DFS(count + 1)
         boollist[i-1] = False
-        select.pop()
-
+        select.pop()       
 DFS(0)
 
 '''
