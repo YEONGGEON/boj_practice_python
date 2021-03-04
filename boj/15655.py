@@ -6,26 +6,26 @@ llist.sort()
 boollist = [0] * N
 select = []
 
-def DFS(count):
+def DFS(a, count):
     if count == M:
         for i in select:
             print(i, end=' ')
         print('')
         return
 
-    for i in range(0,N):
+    for i in range(a,N):
         if boollist[i] == 1:
             continue
         select.append(llist[i])
         boollist[i] = 1
-        DFS(count + 1)
+        DFS(i, count + 1)
         select.pop()
         boollist[i] = 0
 
-DFS(0)
+DFS(0, 0)
 
 '''
 boj
-N and M (5) (15654)
-28776KB / 288ms
+N and M (6) (15655)
+28776KB / 68ms
 '''
