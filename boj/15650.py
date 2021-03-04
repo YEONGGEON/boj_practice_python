@@ -11,6 +11,7 @@ def DFS(count):
                 print(i, end = ' ')
             print('')
             return
+        return
 
     for i in range(1, N+1):
         if boollist[i-1]:
