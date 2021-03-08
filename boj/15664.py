@@ -24,7 +24,7 @@ def DFS(a,count):
         select.append(strllist[i])
         boollist[i] = 1
         DFS(i,count + 1)
-        select.pop()
+        select.pop() 
         boollist[i] = 0
 
 DFS(0,0)
@@ -32,5 +32,5 @@ DFS(0,0)
 '''
 boj
 N and M (10) (15664)
-28776KB / 68ms
+28776KB / 68ms 
 '''
